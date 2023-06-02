@@ -35,7 +35,7 @@ export default class Review extends Component {
 
     render() {
         return (
-            <div className='w-full flex flex-row flex-wrap'>
+            <div className='w-full flex flex-row'>
                 {this.state.reviews.length < 1 ? 'No Reviews' : ''}
 
                 {

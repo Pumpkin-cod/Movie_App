@@ -6,9 +6,9 @@ import Review from './Review';
 
 const App = () => {
   return (
-    <div className="w-full flex flex-wrap">
+    <div className="w-full flex flex-wrap pt-20">
       {/* <Dashboard /> */}
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-rows-3 gap-4 ">
         <Review />
       </div>
     </div>
